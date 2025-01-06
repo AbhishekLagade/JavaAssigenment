@@ -9,7 +9,7 @@ public class GreetingMassage {
 		
 		Scanner sc = new Scanner(System.in);
 		String Name = sc.nextLine();
-		System.out.println("Enter the Name :");
+		System.out.println("Enter the Name :"+Name);
 		
 		System.out.println("Hello "+Name+" ! Keep coding and building amazing things!");
 
